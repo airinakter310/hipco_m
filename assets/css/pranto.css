@@ -1,0 +1,18 @@
+@keyframes marquee {
+    0% {
+        transform: translateX(0%)
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.TranslationText_translation-font-size-4__TKdKv{
+    white-space: nowrap;
+    /* animation: marquee 100s linear infinite; */
+    width: fit-content;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    font-size: 26px;
+}
